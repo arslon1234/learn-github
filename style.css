@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.tasks{
+    width: 100%;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: center;
+    gap: 30px;
+}
+.task{
+    background-color: green;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+.task a {
+    color: white;
+    font-size: 20px;
+}
